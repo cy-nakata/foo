@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<title>ありがとうございました。｜ヘルプ</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link rel="stylesheet" type="text/css" href="../common/css/wave3style.css" />
+<script type="text/javascript" src="../common/js/jquery.js"></script>
+<script type="text/javascript" src="../common/js/common.js"></script>
+<!--[if IE 6]>
+<script type="text/javascript" src="/common/js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="/common/js/ie6.js"></script>
+<script type="text/javascript" src="/common/js/PIE.js"></script>
+<script type="text/javascript">
+  DD_belatedPNG.fix('body *');
+</script>
+<![endif]-->
+</head>
+<body class="d_box">
+<div id="wrap">
+	
+	<div id="hd">
+  <div class="inner clearfix">
+   <h1><img src="m962m700000000kp-img/cybozucomlogo_100x25.png" width="100" height="25" alt="cybozu.com" /></h1>
+   <div class="left_box">
+    <form>
+     <div id="cse-search-form" style="width: 30%;">Loading</div>
+    </form>	
+   </div>
+   <div class="right_box">
+    <p><a href="https://www.cybozu.com/" target="_blank"><img src="m962m700000000kp-img/hd_site.gif" width="165" height="25" alt="サイボウズサイトへ" /></a></p>
+   </div>
+  </div>
+	</div><!-- / hd -->
+
+
+ <div class="location">
+
+	
+	 <ul class="inner clearfix">
+		
+			     <li class="home"><span class="addPie">cybozu.com ヘルプ</span></li>
+
+			
+	 </ul>
+	
+
+ </div>
+	<div id="ctArea" class="clearfix">
+	
+<div class="clearfix">
+	
+<h2>アンケートを送信しました。</h2>
+
+<h3>アンケートにご回答いただき、ありがとうございました。</h3>
+<p>
+いただきましたご意見は、今後のヘルプやマニュアルの制作の参考にさせていただきます。
+</p>
+<!--close-->
+<div class="close"><a href="javascript:window.close()"><img src="../common/closelabel.gif" alt="ウインドウを閉じる"></a>
+</div>
+<!--/close-->
+
+</div>
+	
+  <div class="line_box">
+  </div>
+	</div><!-- / ctArea -->
+
+	
+
+	<div id="ft">
+  <div class="inner clearfix">
+   <p class="ft_logo"><img src="../common/ft_logo.gif" width="104" height="36" alt="cybozu" /></p>
+   <div class="left_txt">
+    <ul>
+		
+			<li><a href="http://cybozu.co.jp/company/copyright/other_companies_trademark.html">他社商標について</a> | </li>
+		
+			<li><a href="http://cybozu.co.jp/company/copyright/privacy_policy.html">個人情報保護方針</a> | </li>
+		
+			<li><a href="http://cybozu.co.jp/">サイボウズ株式会社（Japan）</a></li>
+		
+    </ul>
+	
+    	<p class="copy">記載された商品名、各製品名は各社の登録商標または商標です。Copyright (C) Cybozu</p>
+	
+   </div>
+  </div>
+ </div><!-- / ft -->
+</div>
+<!-- Google Search -->
+<script>
+function addEvent(elm,lstner,fn){
+	try{
+		elm.addEventListener(lstner,fn,false);
+	}catch(e){
+		elm.attachEvent("on"+lstner,fn);
+	}
+}
+addEvent(window,"load",function() {
+    head = document.getElementsByTagName("head")[0];
+    var cse_css = document.createElement('link');
+    cse_css.rel = 'stylesheet';
+    cse_css.href = 'https://www.google.com/cse/style/look/default.css';
+    cse_css.type = 'text/css';
+    head.appendChild(cse_css);
+    var cse_css2 = document.createElement('link');
+    cse_css2.rel = 'stylesheet';
+    cse_css2.href = '/common/css/gsearch.css';
+    cse_css2.type = 'text/css';
+    head.appendChild(cse_css2);
+});
+</script>
+<script src="https://www.google.com/jsapi" type="text/javascript"></script>
+<script>
+  google.load('search', '1', {language : 'ja'});
+  google.setOnLoadCallback(function() {
+    var customSearchOptions = {};
+   
+    var imageSearchOptions = {};
+    imageSearchOptions['layout'] = google.search.ImageSearch.LAYOUT_POPUP;
+    customSearchOptions['enableImageSearch'] = false;
+    customSearchOptions['imageSearchOptions'] = imageSearchOptions;
+   
+    var customSearchControl = new google.search.CustomSearchControl(
+      '005533388326781381641:hp-srmi5zca', customSearchOptions);
+ 
+    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+    var options = new google.search.DrawOptions();
+    options.enableSearchboxOnly("http://help.cybozu.com/ja/search_result.html", "ja_result");
+    customSearchControl.draw('cse-search-form', options);
+  }, true);
+</script>
+<!-- /Google Search -->
+<script type="text/javascript" src="/__utm.js"></script>
+</body>
+</html>
